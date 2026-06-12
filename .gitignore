@@ -1,0 +1,7 @@
+data/processed/spotify_tracks.csv 
+data/processed/*.parquet 
+data/processed/artists.csv 
+data/processed/dict_artists.json 
+models/*.joblib 
+__pycache__/ 
+*.pyc 

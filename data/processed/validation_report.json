@@ -1,0 +1,239 @@
+{
+  "dataset_overview": {
+    "total_tracks": 586672,
+    "total_columns": 29,
+    "columns": [
+      "track_id",
+      "track_name",
+      "popularity",
+      "duration_ms",
+      "explicit",
+      "artist_names",
+      "artist_ids",
+      "release_date",
+      "danceability",
+      "energy",
+      "key",
+      "loudness",
+      "mode",
+      "speechiness",
+      "acousticness",
+      "instrumentalness",
+      "liveness",
+      "valence",
+      "tempo",
+      "time_signature",
+      "charted",
+      "genre",
+      "loudness_norm",
+      "tempo_norm",
+      "duration_min",
+      "energy_dance",
+      "loud_energy",
+      "markets_count",
+      "release_year"
+    ]
+  },
+  "missing_values": {
+    "track_name": {
+      "count": 71,
+      "pct": 0.01
+    },
+    "release_year": {
+      "count": 138591,
+      "pct": 23.62
+    }
+  },
+  "out_of_range": {
+    "loudness": {
+      "out_of_range": 219,
+      "pct": 0.04,
+      "expected": [
+        -60.0,
+        0.0
+      ],
+      "actual_min": -60.0,
+      "actual_max": 5.376
+    },
+    "tempo": {
+      "out_of_range": 328,
+      "pct": 0.06,
+      "expected": [
+        30.0,
+        250.0
+      ],
+      "actual_min": 0.0,
+      "actual_max": 246.381
+    },
+    "time_signature": {
+      "out_of_range": 337,
+      "pct": 0.06,
+      "expected": [
+        1,
+        7
+      ],
+      "actual_min": 0.0,
+      "actual_max": 5.0
+    },
+    "duration_ms": {
+      "out_of_range": 109,
+      "pct": 0.02,
+      "expected": [
+        10000,
+        3600000
+      ],
+      "actual_min": 3344.0,
+      "actual_max": 5621218.0
+    }
+  },
+  "duplicates": {
+    "duplicate_track_ids": 0
+  },
+  "class_balance": {
+    "charted": {
+      "count": 7323,
+      "pct": 1.25
+    },
+    "non_charted": {
+      "count": 579349,
+      "pct": 98.75
+    },
+    "imbalance_ratio": 79.11
+  },
+  "genre_breakdown": {
+    "unknown": {
+      "count": 586672,
+      "charted_rate": 0.0125,
+      "avg_popularity": 27.5701
+    }
+  },
+  "feature_statistics": {
+    "danceability": {
+      "mean": 0.5636,
+      "std": 0.1661,
+      "min": 0.0,
+      "25%": 0.453,
+      "median": 0.577,
+      "75%": 0.686,
+      "max": 0.991
+    },
+    "energy": {
+      "mean": 0.542,
+      "std": 0.2519,
+      "min": 0.0,
+      "25%": 0.343,
+      "median": 0.549,
+      "75%": 0.748,
+      "max": 1.0
+    },
+    "key": {
+      "mean": 5.2216,
+      "std": 3.5194,
+      "min": 0.0,
+      "25%": 2.0,
+      "median": 5.0,
+      "75%": 8.0,
+      "max": 11.0
+    },
+    "loudness": {
+      "mean": -10.2061,
+      "std": 5.0893,
+      "min": -60.0,
+      "25%": -12.891,
+      "median": -9.243,
+      "75%": -6.482,
+      "max": 5.376
+    },
+    "mode": {
+      "mean": 0.6588,
+      "std": 0.4741,
+      "min": 0.0,
+      "25%": 0.0,
+      "median": 1.0,
+      "75%": 1.0,
+      "max": 1.0
+    },
+    "speechiness": {
+      "mean": 0.1049,
+      "std": 0.1799,
+      "min": 0.0,
+      "25%": 0.034,
+      "median": 0.0443,
+      "75%": 0.0763,
+      "max": 0.971
+    },
+    "acousticness": {
+      "mean": 0.4499,
+      "std": 0.3488,
+      "min": 0.0,
+      "25%": 0.0969,
+      "median": 0.422,
+      "75%": 0.785,
+      "max": 0.996
+    },
+    "instrumentalness": {
+      "mean": 0.1135,
+      "std": 0.2669,
+      "min": 0.0,
+      "25%": 0.0,
+      "median": 0.0,
+      "75%": 0.0095,
+      "max": 1.0
+    },
+    "liveness": {
+      "mean": 0.2139,
+      "std": 0.1843,
+      "min": 0.0,
+      "25%": 0.0983,
+      "median": 0.139,
+      "75%": 0.278,
+      "max": 1.0
+    },
+    "valence": {
+      "mean": 0.5523,
+      "std": 0.2577,
+      "min": 0.0,
+      "25%": 0.346,
+      "median": 0.564,
+      "75%": 0.769,
+      "max": 1.0
+    },
+    "tempo": {
+      "mean": 118.4649,
+      "std": 29.7641,
+      "min": 0.0,
+      "25%": 95.6,
+      "median": 117.384,
+      "75%": 136.321,
+      "max": 246.381
+    },
+    "time_signature": {
+      "mean": 3.8734,
+      "std": 0.4732,
+      "min": 0.0,
+      "25%": 4.0,
+      "median": 4.0,
+      "75%": 4.0,
+      "max": 5.0
+    }
+  },
+  "correlation_with_chart": {
+    "loudness": 0.0774,
+    "acousticness": -0.0657,
+    "danceability": 0.0585,
+    "energy": 0.045,
+    "instrumentalness": -0.0378,
+    "liveness": -0.0242,
+    "time_signature": 0.018,
+    "valence": -0.0138,
+    "tempo": 0.0129,
+    "mode": -0.0104,
+    "speechiness": -0.0028,
+    "key": 0.0012
+  },
+  "quality_issues": [
+    "High missingness in release_year: 23.62%",
+    "Severe class imbalance \u2014 ratio 79.1:1  (consider SMOTE)"
+  ],
+  "quality_pass": false
+}

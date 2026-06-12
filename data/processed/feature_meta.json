@@ -1,0 +1,46 @@
+{
+  "feature_cols": [
+    "explicit",
+    "danceability",
+    "energy",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "loudness_norm",
+    "tempo_norm",
+    "duration_min",
+    "energy_dance",
+    "loud_energy",
+    "markets_count",
+    "release_year",
+    "genre_enc",
+    "key_1",
+    "key_2",
+    "key_3",
+    "key_4",
+    "key_5",
+    "key_6",
+    "key_7",
+    "key_8",
+    "key_9",
+    "key_10",
+    "key_11",
+    "ts_1",
+    "ts_3",
+    "ts_4",
+    "ts_5"
+  ],
+  "encoders": {
+    "genre": {
+      "unknown": 0
+    }
+  },
+  "n_train": 410670,
+  "n_val": 88001,
+  "n_test": 88001,
+  "chart_threshold": 70,
+  "charted_rate_train": 0.0125
+}

@@ -1,0 +1,512 @@
+{
+  "follower_threshold": {
+    "buckets": [
+      {
+        "followers_approx": 2,
+        "n": 1339,
+        "chart_rate": 0.0
+      },
+      {
+        "followers_approx": 6,
+        "n": 2853,
+        "chart_rate": 0.0
+      },
+      {
+        "followers_approx": 18,
+        "n": 5892,
+        "chart_rate": 0.0
+      },
+      {
+        "followers_approx": 56,
+        "n": 8818,
+        "chart_rate": 0.0
+      },
+      {
+        "followers_approx": 178,
+        "n": 12416,
+        "chart_rate": 0.0002
+      },
+      {
+        "followers_approx": 562,
+        "n": 19503,
+        "chart_rate": 0.0005
+      },
+      {
+        "followers_approx": 1778,
+        "n": 31394,
+        "chart_rate": 0.0004
+      },
+      {
+        "followers_approx": 5623,
+        "n": 46544,
+        "chart_rate": 0.0011
+      },
+      {
+        "followers_approx": 17783,
+        "n": 73408,
+        "chart_rate": 0.0017
+      },
+      {
+        "followers_approx": 56234,
+        "n": 83747,
+        "chart_rate": 0.0035
+      },
+      {
+        "followers_approx": 177828,
+        "n": 88068,
+        "chart_rate": 0.0064
+      },
+      {
+        "followers_approx": 562341,
+        "n": 86936,
+        "chart_rate": 0.011
+      },
+      {
+        "followers_approx": 1778279,
+        "n": 67311,
+        "chart_rate": 0.0242
+      },
+      {
+        "followers_approx": 5623413,
+        "n": 30199,
+        "chart_rate": 0.0617
+      },
+      {
+        "followers_approx": 17782794,
+        "n": 9599,
+        "chart_rate": 0.1263
+      },
+      {
+        "followers_approx": 56234133,
+        "n": 2873,
+        "chart_rate": 0.2015
+      }
+    ],
+    "logistic_auc": 0.8513,
+    "logistic_coef": 2.0429,
+    "breakpoint_followers": 56234133,
+    "breakpoint_jump": 0.0753
+  },
+  "time_trends": {
+    "decades": [
+      {
+        "decade": 1920,
+        "n": 3058,
+        "chart_rate": 0.0,
+        "danceability": 0.6283,
+        "energy": 0.2491,
+        "valence": 0.6526,
+        "loudness_norm": 0.7265,
+        "acousticness": 0.9125,
+        "duration_min": 2.8903,
+        "tempo_norm": 0.3885,
+        "speechiness": 0.3922,
+        "instrumentalness": 0.3535
+      },
+      {
+        "decade": 1930,
+        "n": 5875,
+        "chart_rate": 0.0,
+        "danceability": 0.5458,
+        "energy": 0.2888,
+        "valence": 0.5913,
+        "loudness_norm": 0.7604,
+        "acousticness": 0.871,
+        "duration_min": 3.3692,
+        "tempo_norm": 0.3896,
+        "speechiness": 0.2366,
+        "instrumentalness": 0.2803
+      },
+      {
+        "decade": 1940,
+        "n": 9302,
+        "chart_rate": 0.0,
+        "danceability": 0.5093,
+        "energy": 0.2871,
+        "valence": 0.5903,
+        "loudness_norm": 0.7873,
+        "acousticness": 0.9194,
+        "duration_min": 3.4872,
+        "tempo_norm": 0.3687,
+        "speechiness": 0.1198,
+        "instrumentalness": 0.3724
+      },
+      {
+        "decade": 1950,
+        "n": 20130,
+        "chart_rate": 0.0002,
+        "danceability": 0.5029,
+        "energy": 0.3188,
+        "valence": 0.5404,
+        "loudness_norm": 0.7715,
+        "acousticness": 0.8398,
+        "duration_min": 3.4892,
+        "tempo_norm": 0.3991,
+        "speechiness": 0.1034,
+        "instrumentalness": 0.2273
+      },
+      {
+        "decade": 1960,
+        "n": 30429,
+        "chart_rate": 0.0027,
+        "danceability": 0.5056,
+        "energy": 0.4276,
+        "valence": 0.5869,
+        "loudness_norm": 0.8011,
+        "acousticness": 0.674,
+        "duration_min": 3.426,
+        "tempo_norm": 0.415,
+        "speechiness": 0.0755,
+        "instrumentalness": 0.1348
+      },
+      {
+        "decade": 1970,
+        "n": 41626,
+        "chart_rate": 0.0044,
+        "danceability": 0.5225,
+        "energy": 0.5035,
+        "valence": 0.5808,
+        "loudness_norm": 0.8107,
+        "acousticness": 0.5109,
+        "duration_min": 3.8741,
+        "tempo_norm": 0.4281,
+        "speechiness": 0.1079,
+        "instrumentalness": 0.0947
+      },
+      {
+        "decade": 1980,
+        "n": 58603,
+        "chart_rate": 0.0036,
+        "danceability": 0.5609,
+        "energy": 0.5471,
+        "valence": 0.5757,
+        "loudness_norm": 0.8114,
+        "acousticness": 0.4141,
+        "duration_min": 3.8443,
+        "tempo_norm": 0.4363,
+        "speechiness": 0.1358,
+        "instrumentalness": 0.0794
+      },
+      {
+        "decade": 1990,
+        "n": 83652,
+        "chart_rate": 0.004,
+        "danceability": 0.5722,
+        "energy": 0.5719,
+        "valence": 0.5667,
+        "loudness_norm": 0.8278,
+        "acousticness": 0.3671,
+        "duration_min": 4.0412,
+        "tempo_norm": 0.4419,
+        "speechiness": 0.0967,
+        "instrumentalness": 0.0704
+      },
+      {
+        "decade": 2000,
+        "n": 73979,
+        "chart_rate": 0.0091,
+        "danceability": 0.5902,
+        "energy": 0.6485,
+        "valence": 0.5629,
+        "loudness_norm": 0.8742,
+        "acousticness": 0.3132,
+        "duration_min": 4.0219,
+        "tempo_norm": 0.4522,
+        "speechiness": 0.0798,
+        "instrumentalness": 0.0553
+      },
+      {
+        "decade": 2010,
+        "n": 101208,
+        "chart_rate": 0.0328,
+        "danceability": 0.6089,
+        "energy": 0.6586,
+        "valence": 0.5128,
+        "loudness_norm": 0.8785,
+        "acousticness": 0.2873,
+        "duration_min": 3.8807,
+        "tempo_norm": 0.4562,
+        "speechiness": 0.091,
+        "instrumentalness": 0.0901
+      },
+      {
+        "decade": 2020,
+        "n": 20218,
+        "chart_rate": 0.1097,
+        "danceability": 0.6616,
+        "energy": 0.6329,
+        "valence": 0.5031,
+        "loudness_norm": 0.8725,
+        "acousticness": 0.2739,
+        "duration_min": 3.3667,
+        "tempo_norm": 0.455,
+        "speechiness": 0.1179,
+        "instrumentalness": 0.1151
+      }
+    ],
+    "feature_trends": {
+      "danceability": {
+        "slope_per_decade": 0.000778,
+        "p_value": 0.132921,
+        "direction": "\u2191 increasing",
+        "significant": false
+      },
+      "energy": {
+        "slope_per_decade": 0.004644,
+        "p_value": 1e-06,
+        "direction": "\u2191 increasing",
+        "significant": true
+      },
+      "valence": {
+        "slope_per_decade": -0.001002,
+        "p_value": 0.002451,
+        "direction": "\u2193 decreasing",
+        "significant": true
+      },
+      "loudness_norm": {
+        "slope_per_decade": 0.001442,
+        "p_value": 1e-06,
+        "direction": "\u2191 increasing",
+        "significant": true
+      },
+      "acousticness": {
+        "slope_per_decade": -0.007774,
+        "p_value": 2e-06,
+        "direction": "\u2193 decreasing",
+        "significant": true
+      },
+      "duration_min": {
+        "slope_per_decade": 0.006868,
+        "p_value": 0.032591,
+        "direction": "\u2191 increasing",
+        "significant": true
+      },
+      "tempo_norm": {
+        "slope_per_decade": 0.000869,
+        "p_value": 1.5e-05,
+        "direction": "\u2191 increasing",
+        "significant": true
+      },
+      "speechiness": {
+        "slope_per_decade": -0.001842,
+        "p_value": 0.030253,
+        "direction": "\u2193 decreasing",
+        "significant": true
+      },
+      "instrumentalness": {
+        "slope_per_decade": -0.002976,
+        "p_value": 0.001175,
+        "direction": "\u2193 decreasing",
+        "significant": true
+      }
+    },
+    "energy_gap": [
+      {
+        "decade": 1950,
+        "charted_energy": 0.433,
+        "noncharted_energy": 0.3187,
+        "gap": 0.1143
+      },
+      {
+        "decade": 1960,
+        "charted_energy": 0.5419,
+        "noncharted_energy": 0.4273,
+        "gap": 0.1146
+      },
+      {
+        "decade": 1970,
+        "charted_energy": 0.6046,
+        "noncharted_energy": 0.503,
+        "gap": 0.1016
+      },
+      {
+        "decade": 1980,
+        "charted_energy": 0.6849,
+        "noncharted_energy": 0.5466,
+        "gap": 0.1383
+      },
+      {
+        "decade": 1990,
+        "charted_energy": 0.6723,
+        "noncharted_energy": 0.5715,
+        "gap": 0.1008
+      },
+      {
+        "decade": 2000,
+        "charted_energy": 0.7157,
+        "noncharted_energy": 0.6479,
+        "gap": 0.0678
+      },
+      {
+        "decade": 2010,
+        "charted_energy": 0.626,
+        "noncharted_energy": 0.6597,
+        "gap": -0.0337
+      },
+      {
+        "decade": 2020,
+        "charted_energy": 0.6429,
+        "noncharted_energy": 0.6317,
+        "gap": 0.0111
+      }
+    ]
+  },
+  "feature_interactions": {
+    "interactions": [
+      {
+        "feat_a": "energy",
+        "feat_b": "danceability",
+        "r_a": 0.045,
+        "r_b": 0.0585,
+        "r_interaction": 0.0659,
+        "improvement": 0.0074,
+        "synergy": true
+      },
+      {
+        "feat_a": "energy",
+        "feat_b": "loudness_norm",
+        "r_a": 0.045,
+        "r_b": 0.0774,
+        "r_interaction": 0.0526,
+        "improvement": -0.0248,
+        "synergy": false
+      },
+      {
+        "feat_a": "danceability",
+        "feat_b": "loudness_norm",
+        "r_a": 0.0585,
+        "r_b": 0.0774,
+        "r_interaction": 0.0791,
+        "improvement": 0.0017,
+        "synergy": false
+      },
+      {
+        "feat_a": "danceability",
+        "feat_b": "valence",
+        "r_a": 0.0585,
+        "r_b": -0.0138,
+        "r_interaction": 0.0098,
+        "improvement": -0.0487,
+        "synergy": false
+      },
+      {
+        "feat_a": "energy",
+        "feat_b": "valence",
+        "r_a": 0.045,
+        "r_b": -0.0138,
+        "r_interaction": 0.0141,
+        "improvement": -0.0309,
+        "synergy": false
+      }
+    ],
+    "quadrant_tests": [
+      {
+        "feat_a": "energy",
+        "feat_b": "danceability",
+        "joint_rate": 0.0251,
+        "best_single_rate": 0.0226,
+        "synergy": 0.0025,
+        "positive_synergy": true
+      },
+      {
+        "feat_a": "energy",
+        "feat_b": "loudness_norm",
+        "joint_rate": 0.0169,
+        "best_single_rate": 0.0169,
+        "synergy": 0.0,
+        "positive_synergy": false
+      },
+      {
+        "feat_a": "danceability",
+        "feat_b": "loudness_norm",
+        "joint_rate": 0.0236,
+        "best_single_rate": 0.0226,
+        "synergy": 0.0009,
+        "positive_synergy": false
+      }
+    ],
+    "shap_top10": [
+      {
+        "rank": 1,
+        "feature": "release_year",
+        "mean_abs_shap": 0.125669
+      },
+      {
+        "rank": 2,
+        "feature": "loudness_norm",
+        "mean_abs_shap": 0.064418
+      },
+      {
+        "rank": 3,
+        "feature": "acousticness",
+        "mean_abs_shap": 0.050923
+      },
+      {
+        "rank": 4,
+        "feature": "loud_energy",
+        "mean_abs_shap": 0.039692
+      },
+      {
+        "rank": 5,
+        "feature": "ts_4",
+        "mean_abs_shap": 0.034994
+      },
+      {
+        "rank": 6,
+        "feature": "explicit",
+        "mean_abs_shap": 0.027334
+      },
+      {
+        "rank": 7,
+        "feature": "duration_min",
+        "mean_abs_shap": 0.027156
+      },
+      {
+        "rank": 8,
+        "feature": "instrumentalness",
+        "mean_abs_shap": 0.026011
+      },
+      {
+        "rank": 9,
+        "feature": "energy_dance",
+        "mean_abs_shap": 0.024122
+      },
+      {
+        "rank": 10,
+        "feature": "valence",
+        "mean_abs_shap": 0.023488
+      }
+    ],
+    "hit_score": {
+      "buckets": [
+        {
+          "tier": "Very Low",
+          "n": 151970,
+          "chart_rate": 0.0028
+        },
+        {
+          "tier": "Low",
+          "n": 148364,
+          "chart_rate": 0.007
+        },
+        {
+          "tier": "Medium",
+          "n": 121624,
+          "chart_rate": 0.0161
+        },
+        {
+          "tier": "High",
+          "n": 138227,
+          "chart_rate": 0.0237
+        },
+        {
+          "tier": "Very High",
+          "n": 26487,
+          "chart_rate": 0.0236
+        }
+      ],
+      "correlation": 0.0725,
+      "beats_best_individual": false
+    }
+  }
+}

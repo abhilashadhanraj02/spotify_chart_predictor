@@ -1,0 +1,293 @@
+{
+  "random_forest": {
+    "val": {
+      "split": "rf_val",
+      "accuracy": 0.9173,
+      "auc_roc": 0.8835,
+      "f1": 0.1549,
+      "precision": 0.0888,
+      "recall": 0.6069,
+      "confusion_matrix": [
+        [
+          80056,
+          6846
+        ],
+        [
+          432,
+          667
+        ]
+      ]
+    },
+    "test": {
+      "split": "rf_test",
+      "accuracy": 0.917,
+      "auc_roc": 0.8679,
+      "f1": 0.1497,
+      "precision": 0.0858,
+      "recall": 0.5856,
+      "confusion_matrix": [
+        [
+          80053,
+          6850
+        ],
+        [
+          455,
+          643
+        ]
+      ]
+    }
+  },
+  "xgboost": {
+    "val": {
+      "split": "xgb_val",
+      "accuracy": 0.6078,
+      "auc_roc": 0.8672,
+      "f1": 0.054,
+      "precision": 0.0278,
+      "recall": 0.8954,
+      "confusion_matrix": [
+        [
+          52507,
+          34395
+        ],
+        [
+          115,
+          984
+        ]
+      ]
+    },
+    "test": {
+      "split": "xgb_test",
+      "accuracy": 0.6051,
+      "auc_roc": 0.8592,
+      "f1": 0.0532,
+      "precision": 0.0274,
+      "recall": 0.8898,
+      "confusion_matrix": [
+        [
+          52272,
+          34631
+        ],
+        [
+          121,
+          977
+        ]
+      ]
+    }
+  },
+  "shap": {
+    "random_forest": {
+      "mean_abs_shap": {
+        "release_year": 0.132653,
+        "loudness_norm": 0.066097,
+        "acousticness": 0.061808,
+        "duration_min": 0.03141,
+        "instrumentalness": 0.030893,
+        "valence": 0.027507,
+        "explicit": 0.026317,
+        "energy_dance": 0.023284,
+        "speechiness": 0.022639,
+        "liveness": 0.021197,
+        "energy": 0.020342,
+        "danceability": 0.019202,
+        "loud_energy": 0.018858,
+        "mode": 0.014368,
+        "tempo_norm": 0.012265,
+        "ts_4": 0.007127,
+        "key_7": 0.003509,
+        "key_9": 0.002681,
+        "key_2": 0.002517,
+        "key_1": 0.001626,
+        "key_6": 0.001587,
+        "key_5": 0.001549,
+        "key_11": 0.001497,
+        "key_4": 0.001445,
+        "ts_3": 0.001408,
+        "key_10": 0.00128,
+        "key_8": 0.000993,
+        "key_3": 0.000745,
+        "ts_5": 0.000363,
+        "ts_1": 0.000138,
+        "markets_count": 0.0,
+        "genre_enc": 0.0
+      },
+      "mean_shap": {
+        "explicit": -0.01824,
+        "danceability": -0.01104,
+        "energy": -0.012519,
+        "mode": -0.007742,
+        "speechiness": -0.013013,
+        "acousticness": -0.033088,
+        "instrumentalness": -0.017146,
+        "liveness": -0.011764,
+        "valence": -0.015491,
+        "loudness_norm": -0.035442,
+        "tempo_norm": -0.008515,
+        "duration_min": -0.020641,
+        "energy_dance": -0.012441,
+        "loud_energy": -0.010632,
+        "markets_count": 0.0,
+        "release_year": -0.095792,
+        "genre_enc": 0.0,
+        "key_1": -0.001361,
+        "key_2": -0.002144,
+        "key_3": -0.000703,
+        "key_4": -0.001324,
+        "key_5": -0.001429,
+        "key_6": -0.001207,
+        "key_7": -0.002595,
+        "key_8": -0.000903,
+        "key_9": -0.002319,
+        "key_10": -0.001173,
+        "key_11": -0.001421,
+        "ts_1": -0.000133,
+        "ts_3": -0.000433,
+        "ts_4": -0.004908,
+        "ts_5": -0.000342
+      },
+      "sample_size": 2000
+    },
+    "xgboost": {
+      "mean_abs_shap": {
+        "release_year": 2.000791,
+        "acousticness": 1.006265,
+        "duration_min": 0.692073,
+        "loudness_norm": 0.672589,
+        "instrumentalness": 0.670853,
+        "energy": 0.395634,
+        "valence": 0.378176,
+        "speechiness": 0.37415,
+        "liveness": 0.359808,
+        "mode": 0.316472,
+        "tempo_norm": 0.288256,
+        "danceability": 0.246358,
+        "energy_dance": 0.187611,
+        "ts_4": 0.158772,
+        "key_7": 0.117089,
+        "explicit": 0.106207,
+        "key_2": 0.101382,
+        "loud_energy": 0.090933,
+        "key_9": 0.088302,
+        "key_5": 0.078609,
+        "key_4": 0.074969,
+        "key_8": 0.069464,
+        "key_11": 0.058527,
+        "key_10": 0.054376,
+        "key_3": 0.052533,
+        "key_1": 0.046603,
+        "key_6": 0.043703,
+        "ts_3": 0.038101,
+        "ts_5": 0.016396,
+        "ts_1": 0.007055,
+        "markets_count": 0.0,
+        "genre_enc": 0.0
+      },
+      "mean_shap": {
+        "explicit": -0.068965,
+        "danceability": -0.176751,
+        "energy": -0.053946,
+        "mode": -0.223912,
+        "speechiness": -0.217541,
+        "acousticness": -0.778458,
+        "instrumentalness": -0.409105,
+        "liveness": -0.231777,
+        "valence": -0.229671,
+        "loudness_norm": -0.352747,
+        "tempo_norm": -0.172909,
+        "duration_min": -0.540392,
+        "energy_dance": -0.146879,
+        "loud_energy": -0.084097,
+        "markets_count": 0.0,
+        "release_year": -1.713836,
+        "genre_enc": 0.0,
+        "key_1": -0.036382,
+        "key_2": -0.083066,
+        "key_3": -0.049647,
+        "key_4": -0.056384,
+        "key_5": -0.069129,
+        "key_6": -0.040783,
+        "key_7": -0.085227,
+        "key_8": -0.049164,
+        "key_9": -0.064055,
+        "key_10": -0.048359,
+        "key_11": -0.046893,
+        "ts_1": -0.006981,
+        "ts_3": -0.035228,
+        "ts_4": -0.137497,
+        "ts_5": -0.015231
+      },
+      "sample_size": 2000
+    }
+  },
+  "rf_feature_importance_gini": {
+    "release_year": 0.279946,
+    "loudness_norm": 0.100113,
+    "acousticness": 0.088679,
+    "explicit": 0.054349,
+    "duration_min": 0.048738,
+    "energy": 0.0465,
+    "energy_dance": 0.044669,
+    "valence": 0.043337,
+    "loud_energy": 0.040685,
+    "speechiness": 0.039891,
+    "instrumentalness": 0.038689,
+    "danceability": 0.033211,
+    "liveness": 0.031574,
+    "tempo_norm": 0.024016,
+    "mode": 0.023692,
+    "ts_4": 0.007214,
+    "key_7": 0.006927,
+    "key_9": 0.006383,
+    "key_2": 0.005847,
+    "ts_3": 0.00482,
+    "key_4": 0.004317,
+    "key_5": 0.004279,
+    "key_11": 0.004086,
+    "key_1": 0.004073,
+    "key_6": 0.003984,
+    "key_10": 0.003547,
+    "key_8": 0.002808,
+    "key_3": 0.002252,
+    "ts_5": 0.000968,
+    "ts_1": 0.000407,
+    "markets_count": 0.0,
+    "genre_enc": 0.0
+  },
+  "best_model": "random_forest",
+  "feature_cols": [
+    "explicit",
+    "danceability",
+    "energy",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "loudness_norm",
+    "tempo_norm",
+    "duration_min",
+    "energy_dance",
+    "loud_energy",
+    "markets_count",
+    "release_year",
+    "genre_enc",
+    "key_1",
+    "key_2",
+    "key_3",
+    "key_4",
+    "key_5",
+    "key_6",
+    "key_7",
+    "key_8",
+    "key_9",
+    "key_10",
+    "key_11",
+    "ts_1",
+    "ts_3",
+    "ts_4",
+    "ts_5"
+  ],
+  "train_size": 410670,
+  "smote_used": true
+}
